@@ -36,6 +36,7 @@ function calculateResults(e) {
 
     // Hide Loader
   } else {
-    showError("Please check number inputs");
+    alert("Please check number inputs");
   }
 }
+
