@@ -1,5 +1,4 @@
 body {
-  background: bisque;
   height: 100%;
   width: 100%;
 }
@@ -7,21 +6,11 @@ body {
 .container-first {
   height: 100%;
   width: 100%;
-  background-color: crimson;
+  background-image: url(../images/image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.row-first {
-  background-color: #eee;
-}
-
-h1 {
-  color: rgb(0, 255, 64);
-  background-color: lightblue;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-.sec-btn {
-  width: 30%;
-  height: 25%;
-  color: red;
+.container-first .row .colorer .coloured{
+  background-color: lightgrey;
 }
